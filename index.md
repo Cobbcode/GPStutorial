@@ -161,12 +161,4 @@ all_waypoints_cleaned <- all_waypoints_cleaned %>%
   select(!cleanedstring2)
 all_waypoints_cleaned <- all_waypoints_cleaned %>% filter(!is.na(cleanedstring)) 
 ```
-\
-How many rows have we removed?
-```{r}
-original_waypoint_number # before cleaning too much
 
-# After cleaning waypoint IDs
-rows_of_data_pre_duplicate <- nrow(all_waypoints_cleaned)
-rows_of_data_pre_duplicate
-```
