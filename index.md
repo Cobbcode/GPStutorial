@@ -63,7 +63,6 @@ Note, with .gdb files, GPSBabel also extracts waypoints from the routes of the G
 \
 Once you've pasted the text in to the text document, save the file with "Save as", and change the drop down box "Save as type" from "Text document" to the "All files" option. Then name the file something, making sure it ends with ".bat". For example, "get_waypoints.bat". This .bat extension saves the file as a batch file. This is now able to convert all the .gdb files in the same folder as the batch file, into a merged .unicsv file. WARNING: before you run this file to convert the .gdb files, I'd recommend testing this out with a few map files in a separate folder, just in case anything goes wrong. You should be able to just double click the file to open it, and it'll start running - depending on how many files you have it may take a while.
 \
-\
 
 # Importing and cleaning the data in R
 
@@ -134,7 +133,6 @@ Currently the file names don't correspond to the original file names - let's rem
 all_waypoints_cleaned <- all_waypoints_cleaned %>%
   mutate(Filename = str_replace(Filename,"_converted.unicsv",""))
 ```
-\
 
 # Cleaning waypoint IDs
 
