@@ -1,5 +1,5 @@
 
-This is a quick guide to extracting and cleaning the mongoose GPS data in Windows. 
+This is a quick guide to extract the mongoose GPS data using GPSBabel. I've also provided some code for the first few data cleaning steps. The rest is available - just need to get around to adding it to here!
 
 # Using GPSBabel to convert the map files
 
